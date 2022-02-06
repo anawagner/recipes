@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #FAEDCD;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #CCD5AE;
+    border-bottom: 1px solid #3a4e48;
+}
+
+nav ul, nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main h1 {
+    color: #3a4e48;
+}
+
+nav a::after {
+    display: inline-block;
+    content: '>';
+    padding: 0 3px;
+    font-weight: bold;
+    color: black;
+}
+
+.info {
+    font-weight: bold;
+}
+.info span {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.ingredients {
+    width: 80%;
+}
+
+.ingredients ul, .ingredients li {
+    list-style: none;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.step {
+    font-weight: bold;
+    padding: 3px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
