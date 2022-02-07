@@ -39,31 +39,6 @@ nav a::after {
     color: black;
 }
 
-.info {
-    font-weight: bold;
-}
-.info span {
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: smaller;
-}
-
-.ingredients {
-    width: 80%;
-}
-
-.ingredients ul, .ingredients li {
-    list-style: none;
-    line-height: 1;
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-
-.step {
-    font-weight: bold;
-    padding: 3px;
-}
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
