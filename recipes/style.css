@@ -54,14 +54,12 @@ nav a::after {
 
 .ingredients ul, .ingredients li {
     list-style: none;
-    line-height: 1;
     font-weight: bold;
     margin-bottom: 1em;
 }
 
-.step {
-    font-weight: bold;
-    padding: 3px;
+.steps li {
+    margin-bottom: 1em;
 }
 
 .grid {
